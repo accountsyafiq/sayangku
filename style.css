@@ -1,0 +1,113 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff0f3;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffb3c6;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+/* HERO PHOTO */
+.hero {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.main-photo {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    object-fit: contain;   /* Foto terlihat semua */
+    border: 6px solid #ffb3c6;
+    margin-bottom: 15px;
+}
+
+/* SECTION */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.text {
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* GALLERY */
+.gallery-section {
+    background: #ffe5ec;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.box {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #ff8fa3;
+    background: white;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   /* Foto UTUH tidak terpotong */
+}
+
+.note {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* PESAN */
+.message {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    border-left: 5px solid #ff4d6d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    line-height: 1.7;
+}
+
+/* FOOTER */
+.footer {
+    background: #ff8fa3;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
